@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <PFG_Miroslav>
+            <version>1.0.0</version>
+        </PFG_Miroslav>
+    </modules>
+    <global>
+        <models>
+            <PFG_Miroslav>
+                <class>PFG_Miroslav_Model</class>
+            </PFG_Miroslav>
+        </models>
+    </global>    
+    <frontend>
+        <routers>
+            <customer>
+                <args>
+                    <modules>
+                        <PFG_Miroslav before="Mage_Customer">PFG_Miroslav</PFG_Miroslav>
+                    </modules>
+                </args>
+            </customer>
+        </routers>
+    </frontend>
+    <adminhtml>
+        <events>
+            <catalog_product_save_before>
+                <observers>
+                    <PFG_Miroslav>
+                        <class>PFG_Miroslav/observer</class>
+                        <method>disableProductsWithNoImages</method>
+                    </PFG_Miroslav>
+                </observers>
+            </catalog_product_save_before>
+        </events>
+    </adminhtml>
+</config>

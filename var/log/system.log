@@ -1,0 +1,9 @@
+2018-08-03T16:54:03+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 10: parser error : Extra content at the end of the document  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2018-08-03T16:54:03+00:00 ERR (3): Warning: simplexml_load_string(): &lt;root&gt;  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2018-08-03T16:54:03+00:00 ERR (3): Warning: simplexml_load_string(): ^  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2018-08-03T16:54:12+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 10: parser error : Extra content at the end of the document  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2018-08-03T16:54:12+00:00 ERR (3): Warning: simplexml_load_string(): &lt;root&gt;  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2018-08-03T16:54:12+00:00 ERR (3): Warning: simplexml_load_string(): ^  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2018-08-03T16:54:25+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 10: parser error : Extra content at the end of the document  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2018-08-03T16:54:25+00:00 ERR (3): Warning: simplexml_load_string(): &lt;root&gt;  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
+2018-08-03T16:54:25+00:00 ERR (3): Warning: simplexml_load_string(): ^  in /var/www/magento/lib/Varien/Simplexml/Config.php on line 510
